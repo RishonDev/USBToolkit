@@ -32,7 +32,7 @@ fi
 
 # Swap management utilities
 if brew install coreutils 2>/dev/null; then
-    echo "✓ Coreutils installed (swap utilities)"
+    echo "Coreutils installed (swap utilities)"
 else
     echo "Coreutils installation skipped"
 fi
